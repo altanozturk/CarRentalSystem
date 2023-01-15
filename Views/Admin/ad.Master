@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ad.master.cs" Inherits="KaosRentalSystem.Views.Admin.ad" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet"href="../../Assets/Libraries/css/bootstrap.min.css"
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand" href="#">KAOS RENTAL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Home.aspx">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Cars.aspx">Car</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link disabled" href="Customers.aspx">Customers</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link disabled" href="Rents.aspx">Rentals</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link disabled" href="Returns.aspx">Returns</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link disabled" href="../Login.aspx">Logout</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+     
+    </form>
+  </div>
+</nav>
+
+    <asp:ContentPlaceHolder ID="mybody" runat="server">
+    </asp:ContentPlaceHolder>
+
+    
+</body>
+</html>
